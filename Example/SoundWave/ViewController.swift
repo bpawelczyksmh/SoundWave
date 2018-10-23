@@ -75,7 +75,7 @@ class ViewController: UIViewController {
 		self.viewModel.audioDidFinish = { [weak self] in
 			self?.currentState = .recorded
 			self?.audioVisualizationView.stop()
-		}
+        }
 	}
 	
 	// MARK: - Actions
